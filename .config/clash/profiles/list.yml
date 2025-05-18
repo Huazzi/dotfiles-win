@@ -1,0 +1,26 @@
+files:
+  - url: ""
+    time: 1722425459740.yml
+    name: config.yaml
+    selected: []
+  - time: 1746632522257.yml
+    name: XFLTD
+    url: https://sub.xfltd.cfd/api/v1/client/subscribe?token=802689d50cffb066f19fad8d4c18c03d
+    selected: []
+    interval: 24
+    subInfo:
+      upload: 1839716889
+      download: 28435685093
+      total: 128849018880
+    homeWeb: https://xfltd.net
+  - time: 1747391462138.yml
+    name: 古人云
+    url: https://gurenyun.herefor.top/api/v1/client/subscribe?token=67a268055a2ce798398d64ed2f552334
+    selected: []
+    interval: 24
+    subInfo:
+      upload: 5707769617
+      download: 58748839078
+      total: 107374182400
+    homeWeb: https://gurenyun.org
+index: 1

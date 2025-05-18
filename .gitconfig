@@ -1,0 +1,21 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = Huazzi
+	email = 2622170480@qq.com
+[credential "https://gitee.com"]
+	provider = generic
+[http]
+	sslCAInfo = D:\\Program Files\\Git\\mingw64\\etc\\ssl\\certs\\cacert.pem
+	sslBackend = schannel
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
+[safe]
+	directory = D:/Program Files/Git/www/git/hua-blog.git

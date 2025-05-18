@@ -1,0 +1,8 @@
+{
+  "last_update": "2025-05-17T22:34:58.8298880+08:00",
+  "root": "D:\\Scoop",
+  "global_root": "D:\\Applications",
+  "proxy": "127.0.0.1:7890",
+  "scoop_repo": "https://github.com/ScoopInstaller/Scoop",
+  "scoop_branch": "master"
+}

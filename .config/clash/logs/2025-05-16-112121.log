@@ -1,0 +1,806 @@
+11:21:21 INF [API] listening addr=127.0.0.1:49806
+11:21:21 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=tcp
+11:21:21 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+11:21:22 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:49819 rAddr=raw.githubusercontent.com:443 proxy=DIRECT
+11:21:22 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:49812 rAddr=assets.msn.cn:443 proxy=DIRECT
+11:21:22 INF [Config] initial compatible provider name=故障转移
+11:21:22 INF [Config] initial compatible provider name=自动选择
+11:21:22 INF [Config] initial compatible provider name=XFLTD
+11:21:22 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:49822 rAddr=api.github.com:443 proxy=DIRECT
+11:21:22 INF [TCP] connected lAddr=127.0.0.1:49811 rAddr=mobile.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:21:28 INF [TCP] connected lAddr=127.0.0.1:49914 rAddr=g.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+11:21:28 INF [TCP] connected lAddr=127.0.0.1:49916 rAddr=storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+11:21:29 INF [TCP] connected lAddr=127.0.0.1:49918 rAddr=oneclient.sfx.ms:443 mode=rule rule=DomainSuffix(sfx.ms) proxy=XFLTD[🇯🇵 日本 05]
+11:21:29 INF [TCP] connected lAddr=127.0.0.1:49920 rAddr=onedriveclucprodbn20005.blob.core.windows.net:443 mode=rule rule=DomainSuffix(windows.net) proxy=XFLTD[🇯🇵 日本 05]
+11:21:30 INF [TCP] connected lAddr=127.0.0.1:49922 rAddr=osfsr.lenovomm.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:21:33 INF [TCP] connected lAddr=127.0.0.1:49925 rAddr=clients2.google.com:80 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:33 INF [TCP] connected lAddr=127.0.0.1:49927 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:33 INF [TCP] connected lAddr=127.0.0.1:49931 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:33 INF [TCP] connected lAddr=127.0.0.1:49929 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:21:34 INF [TCP] connected lAddr=127.0.0.1:49944 rAddr=static-xl.a.88cdn.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:21:34 INF [TCP] connected lAddr=127.0.0.1:49941 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:34 INF [TCP] connected lAddr=127.0.0.1:49943 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+11:21:34 INF [TCP] connected lAddr=127.0.0.1:49945 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+11:21:34 INF [TCP] connected lAddr=127.0.0.1:49933 rAddr=www.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:34 INF [TCP] connected lAddr=127.0.0.1:49939 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:34 INF [TCP] connected lAddr=127.0.0.1:49950 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:21:34 INF [TCP] connected lAddr=127.0.0.1:49953 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:34 INF [TCP] connected lAddr=127.0.0.1:49956 rAddr=ogads-pa.clients6.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:35 INF [TCP] connected lAddr=127.0.0.1:49958 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:35 INF [TCP] connected lAddr=127.0.0.1:49961 rAddr=ogads-pa.clients6.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:35 INF [TCP] connected lAddr=127.0.0.1:49960 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:21:35 INF [TCP] connected lAddr=127.0.0.1:49964 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:35 INF [TCP] connected lAddr=127.0.0.1:49965 rAddr=android.clients.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:35 INF [TCP] connected lAddr=127.0.0.1:49968 rAddr=android.clients.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:35 INF [TCP] connected lAddr=127.0.0.1:49982 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:35 INF [TCP] connected lAddr=127.0.0.1:49975 rAddr=android.clients.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:35 INF [TCP] connected lAddr=127.0.0.1:49984 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:36 INF [TCP] connected lAddr=127.0.0.1:49989 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:36 INF [TCP] connected lAddr=127.0.0.1:49993 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:36 INF [TCP] connected lAddr=127.0.0.1:49995 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:36 INF [TCP] connected lAddr=127.0.0.1:50062 rAddr=www.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:36 INF [TCP] connected lAddr=127.0.0.1:50064 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:21:37 INF [TCP] connected lAddr=127.0.0.1:50066 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:37 INF [TCP] connected lAddr=127.0.0.1:50068 rAddr=unpm-upaas.uc.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:37 INF [TCP] connected lAddr=127.0.0.1:50070 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:38 INF [TCP] connected lAddr=127.0.0.1:50072 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:39 INF [TCP] connected lAddr=127.0.0.1:50075 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=XFLTD[🇯🇵 日本 05]
+11:21:42 INF [TCP] connected lAddr=127.0.0.1:50117 rAddr=badjs.weixinbridge.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:21:42 INF [TCP] connected lAddr=127.0.0.1:50127 rAddr=wx.qlogo.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:42 INF [TCP] connected lAddr=127.0.0.1:50129 rAddr=wx.qlogo.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:42 INF [TCP] connected lAddr=127.0.0.1:50126 rAddr=wx.qlogo.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:42 INF [TCP] connected lAddr=127.0.0.1:50130 rAddr=wx.qlogo.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:42 INF [TCP] connected lAddr=127.0.0.1:50128 rAddr=wx.qlogo.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:42 INF [TCP] connected lAddr=127.0.0.1:50125 rAddr=wx.qlogo.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:42 INF [TCP] connected lAddr=127.0.0.1:50140 rAddr=wx.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:42 INF [TCP] connected lAddr=127.0.0.1:50142 rAddr=wx.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:42 INF [TCP] connected lAddr=127.0.0.1:50149 rAddr=optimizationguide-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:44 INF [TCP] connected lAddr=127.0.0.1:50162 rAddr=servicewechat.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:21:47 INF [TCP] connected lAddr=127.0.0.1:50167 rAddr=mp.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:21:47 INF [TCP] connected lAddr=127.0.0.1:50181 rAddr=wx.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:48 INF [TCP] connected lAddr=127.0.0.1:50183 rAddr=wx.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:53 INF [TCP] connected lAddr=127.0.0.1:50205 rAddr=wx.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:54 INF [TCP] connected lAddr=127.0.0.1:50210 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:21:54 INF [TCP] connected lAddr=127.0.0.1:50212 rAddr=edgedl.me.gvt1.com:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:21:58 INF [TCP] connected lAddr=127.0.0.1:50219 rAddr=osfsr.lenovomm.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:21:59 INF [TCP] connected lAddr=127.0.0.1:50233 rAddr=mmecoa.qpic.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:59 INF [TCP] connected lAddr=127.0.0.1:50234 rAddr=mmecoa.qpic.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:59 INF [TCP] connected lAddr=127.0.0.1:50232 rAddr=mmecoa.qpic.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:59 INF [TCP] connected lAddr=127.0.0.1:50231 rAddr=mmecoa.qpic.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:59 INF [TCP] connected lAddr=127.0.0.1:50237 rAddr=mmecoa.qpic.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:59 INF [TCP] connected lAddr=127.0.0.1:50246 rAddr=wx.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:59 INF [TCP] connected lAddr=127.0.0.1:50230 rAddr=mmecoa.qpic.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:59 INF [TCP] connected lAddr=127.0.0.1:50236 rAddr=mmecoa.qpic.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:59 INF [TCP] connected lAddr=127.0.0.1:50249 rAddr=wx.qlogo.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:21:59 INF [TCP] connected lAddr=127.0.0.1:50254 rAddr=mmbiz.qpic.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:22:00 INF [TCP] connected lAddr=127.0.0.1:50260 rAddr=android.clients.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:22:05 INF [TCP] connected lAddr=127.0.0.1:50274 rAddr=wx.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:22:05 INF [TCP] connected lAddr=127.0.0.1:50272 rAddr=edge.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:22:05 INF [TCP] connected lAddr=127.0.0.1:50276 rAddr=msedge.b.tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:22:09 INF [TCP] connected lAddr=127.0.0.1:50278 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:22:12 INF [TCP] connected lAddr=127.0.0.1:50283 rAddr=mp.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:22:12 INF [TCP] connected lAddr=127.0.0.1:50285 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:22:12 INF [TCP] connected lAddr=127.0.0.1:50287 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=XFLTD[🇯🇵 日本 05]
+11:22:22 INF [TCP] connected lAddr=127.0.0.1:50294 rAddr=wx.qlogo.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:22:22 INF [TCP] connected lAddr=127.0.0.1:50299 rAddr=wx.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:22:22 INF [TCP] connected lAddr=127.0.0.1:50301 rAddr=ocsp.entrust.net:80 mode=rule rule=DomainSuffix(entrust.net) proxy=XFLTD[🇯🇵 日本 05]
+11:22:23 INF [TCP] connected lAddr=127.0.0.1:50301 rAddr=x1.c.lencr.org:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:22:24 INF [TCP] connected lAddr=127.0.0.1:50305 rAddr=puds.ucweb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:22:32 INF [TCP] connected lAddr=127.0.0.1:50316 rAddr=dyn.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:22:32 INF [TCP] connected lAddr=127.0.0.1:50319 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:22:32 INF [TCP] connected lAddr=127.0.0.1:50321 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:22:33 INF [TCP] connected lAddr=127.0.0.1:50323 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:22:33 INF [TCP] connected lAddr=127.0.0.1:50276 rAddr=edgedl.me.gvt1.com:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:22:34 INF [TCP] connected lAddr=127.0.0.1:50339 rAddr=dyn.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:22:36 INF [TCP] connected lAddr=127.0.0.1:50350 rAddr=dyn.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:22:37 INF [TCP] connected lAddr=127.0.0.1:50364 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:22:38 INF [TCP] connected lAddr=127.0.0.1:50382 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:22:48 INF [TCP] connected lAddr=127.0.0.1:50406 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:22:49 INF [TCP] connected lAddr=127.0.0.1:50408 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:22:49 INF [TCP] connected lAddr=127.0.0.1:50410 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:22:50 INF [TCP] connected lAddr=127.0.0.1:50417 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:22:50 INF [TCP] connected lAddr=127.0.0.1:50419 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:22:51 INF [TCP] connected lAddr=127.0.0.1:50421 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=XFLTD[🇯🇵 日本 05]
+11:22:53 INF [TCP] connected lAddr=127.0.0.1:50424 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+11:22:54 INF [TCP] connected lAddr=127.0.0.1:50426 rAddr=ctldl.windowsupdate.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:22:55 INF [TCP] connected lAddr=127.0.0.1:50426 rAddr=c.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:22:55 INF [TCP] connected lAddr=127.0.0.1:50426 rAddr=ctldl.windowsupdate.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:22:55 INF [TCP] connected lAddr=127.0.0.1:50432 rAddr=android.clients.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:22:56 INF [TCP] connected lAddr=127.0.0.1:50434 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:23:06 INF [TCP] connected lAddr=127.0.0.1:54204 rAddr=www.msftconnecttest.com:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:23:06 INF [TCP] connected lAddr=127.0.0.1:54209 rAddr=ipv6.msftconnecttest.com:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:23:06 INF [TCP] connected lAddr=127.0.0.1:54205 rAddr=ipv6.msftconnecttest.com:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:23:06 INF [TCP] connected lAddr=127.0.0.1:54212 rAddr=ipv6.msftconnecttest.com:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:23:06 INF [TCP] connected lAddr=127.0.0.1:54213 rAddr=www.msftconnecttest.com:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:23:26 INF [TCP] connected lAddr=127.0.0.1:64191 rAddr=geo.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:23:27 INF [TCP] connected lAddr=127.0.0.1:64193 rAddr=kv501.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:23:27 INF [TCP] connected lAddr=127.0.0.1:64199 rAddr=cp501.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:23:27 INF [TCP] connected lAddr=127.0.0.1:64196 rAddr=cp501.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:23:27 INF [TCP] connected lAddr=127.0.0.1:64195 rAddr=cp501.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:23:27 INF [TCP] connected lAddr=127.0.0.1:64197 rAddr=cp501.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:23:27 INF [TCP] connected lAddr=127.0.0.1:64198 rAddr=cp501.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:23:38 INF [TCP] connected lAddr=127.0.0.1:64207 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:24:10 INF [TCP] connected lAddr=127.0.0.1:64217 rAddr=wx.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:24:43 INF [TCP] connected lAddr=127.0.0.1:64229 rAddr=my.microsoftpersonalcontent.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:24:44 INF [TCP] connected lAddr=127.0.0.1:64231 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+11:24:44 INF [TCP] connected lAddr=127.0.0.1:64234 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+11:24:44 INF [TCP] connected lAddr=127.0.0.1:64236 rAddr=my.microsoftpersonalcontent.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:24:44 INF [TCP] connected lAddr=127.0.0.1:64238 rAddr=my.microsoftpersonalcontent.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:24:44 INF [TCP] connected lAddr=127.0.0.1:64240 rAddr=ecs.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=DIRECT
+11:24:45 INF [TCP] connected lAddr=127.0.0.1:64242 rAddr=roaming.officeapps.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+11:24:45 INF [TCP] connected lAddr=127.0.0.1:64244 rAddr=api.onedrive.com:443 mode=rule rule=DomainSuffix(onedrive.com) proxy=XFLTD[🇯🇵 日本 05]
+11:24:46 INF [TCP] connected lAddr=127.0.0.1:64246 rAddr=mobile.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:24:46 INF [TCP] connected lAddr=127.0.0.1:64248 rAddr=arc.msn.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:24:46 INF [TCP] connected lAddr=127.0.0.1:64250 rAddr=skyapi.live.net:443 mode=rule rule=DomainSuffix(live.net) proxy=XFLTD[🇯🇵 日本 05]
+11:24:58 INF [TCP] connected lAddr=127.0.0.1:64258 rAddr=open-cms-api.quark.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:24:59 INF [TCP] connected lAddr=127.0.0.1:64260 rAddr=open-cms-api.quark.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:25:28 INF [TCP] connected lAddr=127.0.0.1:50721 rAddr=ipv6.msftncsi.com:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:25:28 INF [TCP] connected lAddr=127.0.0.1:50725 rAddr=ipv6.msftncsi.com:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:25:28 INF [TCP] connected lAddr=127.0.0.1:50730 rAddr=www.msftncsi.com:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:25:28 INF [TCP] connected lAddr=127.0.0.1:50731 rAddr=ipv6.msftncsi.com:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:25:28 INF [TCP] connected lAddr=127.0.0.1:50723 rAddr=www.msftncsi.com:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:25:38 INF [TCP] connected lAddr=127.0.0.1:64629 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:25:59 INF [TCP] connected lAddr=127.0.0.1:64637 rAddr=chinaeast2-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:25:59 INF [TCP] connected lAddr=127.0.0.1:64641 rAddr=pcmanager.api.mc.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:25:59 INF [TCP] connected lAddr=127.0.0.1:64639 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=XFLTD[🇯🇵 日本 05]
+11:26:01 INF [TCP] connected lAddr=127.0.0.1:64645 rAddr=filedownload.lenovo.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:26:01 INF [TCP] connected lAddr=127.0.0.1:64647 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=XFLTD[🇯🇵 日本 05]
+11:26:01 INF [TCP] connected lAddr=127.0.0.1:64650 rAddr=filedownload.csw.lenovo.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:26:02 INF [TCP] connected lAddr=127.0.0.1:64653 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:26:15 INF [TCP] connected lAddr=127.0.0.1:64674 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:26:22 INF [TCP] connected lAddr=127.0.0.1:64679 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+11:26:22 INF [TCP] connected lAddr=127.0.0.1:64647 rAddr=ocsp.sectigo.com:80 mode=rule rule=Domain(ocsp.sectigo.com) proxy=XFLTD[🇯🇵 日本 05]
+11:26:28 INF [TCP] connected lAddr=127.0.0.1:64681 rAddr=drivers.amd.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:26:28 INF [TCP] connected lAddr=127.0.0.1:64683 rAddr=drivers.amd.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:26:28 INF [TCP] connected lAddr=127.0.0.1:64685 rAddr=drivers.amd.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:26:28 INF [TCP] connected lAddr=127.0.0.1:64683 rAddr=www2.ati.com:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:26:29 INF [TCP] connected lAddr=127.0.0.1:64689 rAddr=www2.ati.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:26:29 INF [TCP] connected lAddr=127.0.0.1:64691 rAddr=chinanorth3-0.in.applicationinsights.azure.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:26:29 INF [TCP] connected lAddr=127.0.0.1:64693 rAddr=drivers.amd.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:26:38 INF [TCP] connected lAddr=127.0.0.1:64700 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:26:49 INF [TCP] connected lAddr=127.0.0.1:64706 rAddr=officeclient.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:26:49 INF [TCP] connected lAddr=127.0.0.1:64707 rAddr=officeclient.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:26:49 INF [TCP] connected lAddr=127.0.0.1:64710 rAddr=odc.officeapps.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+11:26:50 INF [TCP] connected lAddr=127.0.0.1:64712 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+11:27:36 INF [TCP] connected lAddr=127.0.0.1:64720 rAddr=fd.api.iris.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:27:37 INF [TCP] connected lAddr=127.0.0.1:64722 rAddr=graph.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:27:50 INF [TCP] connected lAddr=127.0.0.1:64726 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:27:50 INF [TCP] connected lAddr=127.0.0.1:64728 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:28:13 INF [TCP] connected lAddr=127.0.0.1:64736 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:28:55 INF [TCP] connected lAddr=127.0.0.1:64742 rAddr=officeclient.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:28:56 INF [TCP] connected lAddr=127.0.0.1:64744 rAddr=ocws.officeapps.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+11:30:02 INF [TCP] connected lAddr=127.0.0.1:64752 rAddr=ecs.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=DIRECT
+11:30:02 INF [TCP] connected lAddr=127.0.0.1:64754 rAddr=ecs.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=DIRECT
+11:30:43 INF [TCP] connected lAddr=127.0.0.1:64802 rAddr=plus.wps.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:30:43 INF [TCP] connected lAddr=127.0.0.1:64804 rAddr=qn.cache.wpscdn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:30:53 INF [TCP] connected lAddr=127.0.0.1:64817 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:31:05 INF [TCP] connected lAddr=127.0.0.1:64825 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=XFLTD[🇯🇵 日本 05]
+11:31:05 INF [TCP] connected lAddr=127.0.0.1:64823 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:31:38 INF [TCP] connected lAddr=127.0.0.1:64844 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:31:40 INF [TCP] connected lAddr=127.0.0.1:64849 rAddr=music.ydev.tech:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:31:40 INF [TCP] connected lAddr=127.0.0.1:64851 rAddr=dyn.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:31:44 INF [TCP] connected lAddr=127.0.0.1:64858 rAddr=update.wps.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:31:44 INF [TCP] connected lAddr=127.0.0.1:64864 rAddr=update.wps.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:32:06 INF [TCP] connected lAddr=127.0.0.1:64873 rAddr=dyn.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:32:07 INF [TCP] connected lAddr=127.0.0.1:64879 rAddr=dyn.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:32:08 INF [TCP] connected lAddr=127.0.0.1:64888 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:32:18 INF [TCP] connected lAddr=127.0.0.1:64921 rAddr=plus.wps.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:32:38 INF [TCP] connected lAddr=127.0.0.1:64927 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:32:48 INF [TCP] connected lAddr=127.0.0.1:64936 rAddr=dyn.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:32:57 INF [TCP] connected lAddr=127.0.0.1:64944 rAddr=js1.pcfg.cache.wpscdn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:32:58 INF [TCP] connected lAddr=127.0.0.1:64950 rAddr=kdocs-vas.wpscdn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:32:58 INF [TCP] connected lAddr=127.0.0.1:64953 rAddr=account.wps.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:32:58 INF [TCP] connected lAddr=127.0.0.1:64955 rAddr=dw-online.ksosoft.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:32:59 INF [TCP] connected lAddr=127.0.0.1:64958 rAddr=shuc-js.ksord.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:33:04 INF [TCP] connected lAddr=127.0.0.1:64960 rAddr=shuc-js.ksord.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:33:13 INF [TCP] connected lAddr=127.0.0.1:64963 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:33:13 INF [TCP] connected lAddr=127.0.0.1:64965 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:33:14 INF [TCP] connected lAddr=127.0.0.1:64967 rAddr=android.clients.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:33:18 INF [TCP] connected lAddr=127.0.0.1:64974 rAddr=spinfo.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:33:18 INF [TCP] connected lAddr=127.0.0.1:64976 rAddr=dyn.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:33:19 INF [TCP] connected lAddr=127.0.0.1:64979 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:33:32 INF [TCP] connected lAddr=127.0.0.1:64992 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:33:32 INF [TCP] connected lAddr=127.0.0.1:64993 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:33:32 INF [TCP] connected lAddr=127.0.0.1:64995 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:33:32 INF [TCP] connected lAddr=127.0.0.1:64998 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:33:32 INF [TCP] connected lAddr=127.0.0.1:64994 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:33:33 INF [TCP] connected lAddr=127.0.0.1:65004 rAddr=fe-static.wpscdn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:33:33 INF [TCP] connected lAddr=127.0.0.1:65006 rAddr=spinfo.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:33:33 INF [TCP] connected lAddr=127.0.0.1:65008 rAddr=dyn.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:33:38 INF [TCP] connected lAddr=127.0.0.1:65014 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:33:38 INF [TCP] connected lAddr=127.0.0.1:65012 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:34:11 INF [TCP] connected lAddr=127.0.0.1:65022 rAddr=dyn.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:34:12 INF [TCP] connected lAddr=127.0.0.1:65026 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:34:13 INF [TCP] connected lAddr=127.0.0.1:65048 rAddr=fe-static.wpscdn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:34:13 INF [TCP] connected lAddr=127.0.0.1:65043 rAddr=docer-api.wps.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:34:13 INF [TCP] connected lAddr=127.0.0.1:65042 rAddr=tiance.wps.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:34:13 INF [TCP] connected lAddr=127.0.0.1:65050 rAddr=docer-api.wps.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:34:13 INF [TCP] connected lAddr=127.0.0.1:65052 rAddr=api.docer.wpscdn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:34:15 INF [TCP] connected lAddr=127.0.0.1:65059 rAddr=dyn.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:34:21 INF [TCP] connected lAddr=127.0.0.1:65064 rAddr=dyn.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:34:23 INF [TCP] connected lAddr=127.0.0.1:65068 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:34:25 INF [TCP] connected lAddr=127.0.0.1:65079 rAddr=dyn.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:34:37 INF [TCP] connected lAddr=127.0.0.1:65107 rAddr=dyn.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:34:38 INF [TCP] connected lAddr=127.0.0.1:65111 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:34:39 INF [TCP] connected lAddr=127.0.0.1:65120 rAddr=dyn.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:34:42 INF [TCP] connected lAddr=127.0.0.1:65123 rAddr=mp.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:34:47 INF [TCP] connected lAddr=127.0.0.1:65128 rAddr=spinfo.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:34:47 INF [TCP] connected lAddr=127.0.0.1:65130 rAddr=dyn.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:34:48 INF [TCP] connected lAddr=127.0.0.1:65132 rAddr=info.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:34:48 INF [TCP] connected lAddr=127.0.0.1:65136 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:35:20 INF [TCP] connected lAddr=127.0.0.1:65168 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:35:20 INF [TCP] connected lAddr=127.0.0.1:65166 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:35:20 INF [TCP] connected lAddr=127.0.0.1:65164 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:35:20 INF [TCP] connected lAddr=127.0.0.1:65169 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:35:20 INF [TCP] connected lAddr=127.0.0.1:65163 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:35:48 INF [TCP] connected lAddr=127.0.0.1:65177 rAddr=osfsr.lenovomm.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:35:49 INF [TCP] connected lAddr=127.0.0.1:65179 rAddr=osfsr.lenovomm.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:35:49 INF [TCP] connected lAddr=127.0.0.1:65181 rAddr=pc-store.lenovomm.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:35:50 INF [TCP] connected lAddr=127.0.0.1:65183 rAddr=ldc.lenovo.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:35:50 INF [TCP] connected lAddr=127.0.0.1:65185 rAddr=ocsp.dcocsp.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:35:50 INF [TCP] connected lAddr=127.0.0.1:65187 rAddr=pc-store.lenovomm.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:35:51 INF [TCP] connected lAddr=127.0.0.1:65189 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:35:52 INF [TCP] connected lAddr=127.0.0.1:65192 rAddr=cs.dds.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:35:53 INF [TCP] connected lAddr=127.0.0.1:65194 rAddr=pc-store.lenovomm.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:35:53 INF [TCP] connected lAddr=127.0.0.1:65196 rAddr=ecs.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=DIRECT
+11:35:53 INF [TCP] connected lAddr=127.0.0.1:65198 rAddr=mrodevicemgr.officeapps.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+11:35:55 INF [TCP] connected lAddr=127.0.0.1:65202 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=XFLTD[🇯🇵 日本 05]
+11:36:01 INF [TCP] connected lAddr=127.0.0.1:65209 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:36:01 INF [TCP] connected lAddr=127.0.0.1:65211 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:36:01 INF [TCP] connected lAddr=127.0.0.1:65207 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:36:01 INF [TCP] connected lAddr=127.0.0.1:65213 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:36:01 INF [TCP] connected lAddr=127.0.0.1:65208 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:36:02 INF [TCP] connected lAddr=127.0.0.1:65225 rAddr=spinfo.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:36:02 INF [TCP] connected lAddr=127.0.0.1:65227 rAddr=dyn.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:36:13 INF [TCP] connected lAddr=127.0.0.1:65232 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:36:20 INF [TCP] connected lAddr=127.0.0.1:65242 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:36:20 INF [TCP] connected lAddr=127.0.0.1:65246 rAddr=dyn.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:36:21 INF [TCP] connected lAddr=127.0.0.1:65250 rAddr=ic.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:36:26 INF [TCP] connected lAddr=127.0.0.1:65260 rAddr=dyn.wps.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:36:41 INF [TCP] connected lAddr=127.0.0.1:65281 rAddr=music.ydev.tech:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:36:41 INF [TCP] connected lAddr=127.0.0.1:65285 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+11:36:41 INF [TCP] connected lAddr=127.0.0.1:65287 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+11:36:47 INF [TCP] connected lAddr=127.0.0.1:65296 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:36:48 INF [TCP] connected lAddr=127.0.0.1:65298 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:37:28 INF [TCP] connected lAddr=127.0.0.1:65319 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=XFLTD[🇯🇵 日本 05]
+11:37:30 INF [TCP] connected lAddr=127.0.0.1:65321 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=XFLTD[🇯🇵 日本 05]
+11:38:00 INF [TCP] connected lAddr=127.0.0.1:65327 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:38:06 INF [TCP] connected lAddr=127.0.0.1:65333 rAddr=assets.activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=XFLTD[🇯🇵 日本 05]
+11:38:19 INF [TCP] connected lAddr=127.0.0.1:65337 rAddr=www.xmind.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:38:39 INF [TCP] connected lAddr=127.0.0.1:65343 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:38:39 INF [TCP] connected lAddr=127.0.0.1:65345 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:38:43 INF [TCP] connected lAddr=127.0.0.1:65352 rAddr=s3.cn-north-1.amazonaws.com.cn:443 mode=rule rule=DomainKeyword(amazon) proxy=XFLTD[🇯🇵 日本 05]
+11:38:43 INF [TCP] connected lAddr=127.0.0.1:65362 rAddr=s3.cn-north-1.amazonaws.com.cn:443 mode=rule rule=DomainKeyword(amazon) proxy=XFLTD[🇯🇵 日本 05]
+11:38:43 INF [TCP] connected lAddr=127.0.0.1:65359 rAddr=s3.cn-north-1.amazonaws.com.cn:443 mode=rule rule=DomainKeyword(amazon) proxy=XFLTD[🇯🇵 日本 05]
+11:38:43 INF [TCP] connected lAddr=127.0.0.1:65358 rAddr=s3.cn-north-1.amazonaws.com.cn:443 mode=rule rule=DomainKeyword(amazon) proxy=XFLTD[🇯🇵 日本 05]
+11:38:43 INF [TCP] connected lAddr=127.0.0.1:65354 rAddr=s3.cn-north-1.amazonaws.com.cn:443 mode=rule rule=DomainKeyword(amazon) proxy=XFLTD[🇯🇵 日本 05]
+11:38:43 INF [TCP] connected lAddr=127.0.0.1:65356 rAddr=s3.cn-north-1.amazonaws.com.cn:443 mode=rule rule=DomainKeyword(amazon) proxy=XFLTD[🇯🇵 日本 05]
+11:39:00 INF [TCP] connected lAddr=127.0.0.1:65365 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:39:06 INF [TCP] connected lAddr=127.0.0.1:65368 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:41:08 INF [TCP] connected lAddr=127.0.0.1:65397 rAddr=cloud-cdn.lenovomm.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:41:09 INF [TCP] connected lAddr=127.0.0.1:65400 rAddr=ldc.lenovo.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:41:28 INF [TCP] connected lAddr=127.0.0.1:65458 rAddr=api.bugreport.huorong.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:41:28 INF [TCP] connected lAddr=127.0.0.1:65461 rAddr=api.bugreport.huorong.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:41:59 INF [TCP] connected lAddr=127.0.0.1:65487 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+11:41:59 INF [TCP] connected lAddr=127.0.0.1:65489 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+11:42:11 INF [TCP] connected lAddr=127.0.0.1:65505 rAddr=www.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:42:11 INF [TCP] connected lAddr=127.0.0.1:65510 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:42:11 INF [TCP] connected lAddr=127.0.0.1:65508 rAddr=optimizationguide-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:42:11 INF [TCP] connected lAddr=127.0.0.1:65512 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+11:42:11 INF [TCP] connected lAddr=127.0.0.1:65513 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+11:42:12 INF [TCP] connected lAddr=127.0.0.1:65516 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:42:12 INF [TCP] connected lAddr=127.0.0.1:65518 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:42:12 INF [TCP] connected lAddr=127.0.0.1:65521 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:42:12 INF [TCP] connected lAddr=127.0.0.1:65524 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:42:12 INF [TCP] connected lAddr=127.0.0.1:65523 rAddr=i1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:42:12 INF [TCP] connected lAddr=127.0.0.1:65520 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:42:12 INF [TCP] connected lAddr=127.0.0.1:65530 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:42:12 INF [TCP] connected lAddr=127.0.0.1:65532 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:42:12 INF [TCP] connected lAddr=127.0.0.1:50485 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:42:12 INF [TCP] connected lAddr=127.0.0.1:50490 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:42:12 INF [TCP] connected lAddr=127.0.0.1:50492 rAddr=cm.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:42:12 INF [TCP] connected lAddr=127.0.0.1:50483 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:42:12 INF [TCP] connected lAddr=127.0.0.1:50487 rAddr=analytics.immersivetranslate.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:42:12 INF [TCP] connected lAddr=127.0.0.1:50496 rAddr=passport.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:42:12 INF [TCP] connected lAddr=127.0.0.1:50498 rAddr=www.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:42:12 INF [TCP] connected lAddr=127.0.0.1:50500 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:42:12 INF [TCP] connected lAddr=127.0.0.1:50503 rAddr=cm.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:42:13 INF [TCP] connected lAddr=127.0.0.1:50502 rAddr=api.live.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:42:13 INF [TCP] connected lAddr=127.0.0.1:50506 rAddr=displaycatalog.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:42:13 INF [TCP] connected lAddr=127.0.0.1:50508 rAddr=config.immersivetranslate.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:42:13 INF [TCP] connected lAddr=127.0.0.1:50510 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:42:14 INF [TCP] connected lAddr=127.0.0.1:50512 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:42:14 INF [TCP] connected lAddr=127.0.0.1:50514 rAddr=assets.immersivetranslate.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:42:14 INF [TCP] connected lAddr=127.0.0.1:50516 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:42:14 INF [TCP] connected lAddr=127.0.0.1:50518 rAddr=cn-hnzz-fx-01-06.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+11:42:14 INF [TCP] connected lAddr=127.0.0.1:50520 rAddr=hw-v2-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:42:14 INF [TCP] connected lAddr=127.0.0.1:50523 rAddr=message.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:42:15 INF [TCP] connected lAddr=127.0.0.1:50525 rAddr=ai.immersivetranslate.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:42:16 INF [TCP] connected lAddr=127.0.0.1:50530 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:42:17 INF [TCP] connected lAddr=127.0.0.1:50534 rAddr=cm.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:42:17 INF [TCP] connected lAddr=127.0.0.1:50532 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:42:17 INF [TCP] connected lAddr=127.0.0.1:50536 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:42:17 INF [TCP] connected lAddr=127.0.0.1:50538 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:42:22 INF [TCP] connected lAddr=127.0.0.1:50542 rAddr=impression.biligame.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:42:22 INF [TCP] connected lAddr=127.0.0.1:50544 rAddr=cm.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:42:26 INF [TCP] connected lAddr=127.0.0.1:50546 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:42:29 INF [TCP] connected lAddr=127.0.0.1:50548 rAddr=cn-hnzz-fx-01-06.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+11:42:39 INF [TCP] connected lAddr=127.0.0.1:50551 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:42:49 INF [TCP] connected lAddr=127.0.0.1:50553 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:42:49 INF [TCP] connected lAddr=127.0.0.1:50555 rAddr=cn-hnzz-fx-01-01.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+11:42:49 INF [TCP] connected lAddr=127.0.0.1:50557 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:42:50 INF [TCP] connected lAddr=127.0.0.1:50561 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:42:50 INF [TCP] connected lAddr=127.0.0.1:50562 rAddr=i1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:42:50 INF [TCP] connected lAddr=127.0.0.1:50560 rAddr=i2.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:42:50 INF [TCP] connected lAddr=127.0.0.1:50566 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:43:01 INF [TCP] connected lAddr=127.0.0.1:50569 rAddr=cn-hnzz-fx-01-03.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+11:43:01 INF [TCP] connected lAddr=127.0.0.1:50573 rAddr=cn-hnzz-fx-01-07.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+11:43:02 INF [TCP] connected lAddr=127.0.0.1:50571 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=XFLTD[🇯🇵 日本 05]
+11:43:09 INF [TCP] connected lAddr=127.0.0.1:50576 rAddr=message.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:43:09 INF [TCP] connected lAddr=127.0.0.1:50580 rAddr=www.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:43:09 INF [TCP] connected lAddr=127.0.0.1:50582 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:43:09 INF [TCP] connected lAddr=127.0.0.1:50578 rAddr=optimizationguide-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:43:10 INF [TCP] connected lAddr=127.0.0.1:50584 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:43:10 INF [TCP] connected lAddr=127.0.0.1:50586 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:43:10 INF [TCP] connected lAddr=127.0.0.1:50588 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:43:16 INF [TCP] connected lAddr=127.0.0.1:50590 rAddr=space.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:43:17 INF [TCP] connected lAddr=127.0.0.1:50593 rAddr=passport.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:43:17 INF [TCP] connected lAddr=127.0.0.1:50595 rAddr=security.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:43:17 INF [TCP] connected lAddr=127.0.0.1:50596 rAddr=pkg.biligame.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:43:17 INF [TCP] connected lAddr=127.0.0.1:50597 rAddr=le3-api.game.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:43:17 INF [TCP] connected lAddr=127.0.0.1:50601 rAddr=api.geetest.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:43:18 INF [TCP] connected lAddr=127.0.0.1:50603 rAddr=static.geetest.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:43:27 INF [TCP] connected lAddr=127.0.0.1:50606 rAddr=manga.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:43:27 INF [TCP] connected lAddr=127.0.0.1:50608 rAddr=manga.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:43:31 INF [TCP] connected lAddr=127.0.0.1:50612 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:43:31 INF [TCP] connected lAddr=127.0.0.1:50611 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:43:31 INF [TCP] connected lAddr=127.0.0.1:50615 rAddr=message.biliimg.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:43:39 INF [TCP] connected lAddr=127.0.0.1:50617 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:43:40 INF [TCP] connected lAddr=127.0.0.1:50619 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:43:55 INF [TCP] connected lAddr=127.0.0.1:50622 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:44:00 INF [TCP] connected lAddr=127.0.0.1:50625 rAddr=storeedgefd.dsx.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:44:02 INF [TCP] connected lAddr=127.0.0.1:50628 rAddr=account.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:44:03 INF [TCP] connected lAddr=127.0.0.1:50630 rAddr=account.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:44:03 INF [TCP] connected lAddr=127.0.0.1:50632 rAddr=static.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:44:03 INF [TCP] connected lAddr=127.0.0.1:50633 rAddr=static.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:44:03 INF [TCP] connected lAddr=127.0.0.1:50636 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:44:03 INF [TCP] connected lAddr=127.0.0.1:50638 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:44:03 INF [TCP] connected lAddr=127.0.0.1:50642 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:44:03 INF [TCP] connected lAddr=127.0.0.1:50644 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:44:03 INF [TCP] connected lAddr=127.0.0.1:50646 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:44:03 INF [TCP] connected lAddr=127.0.0.1:50640 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:44:03 INF [TCP] connected lAddr=127.0.0.1:50648 rAddr=passport.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:44:03 INF [TCP] connected lAddr=127.0.0.1:50650 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:44:03 INF [TCP] connected lAddr=127.0.0.1:50652 rAddr=i2.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:44:04 INF [TCP] connected lAddr=127.0.0.1:50654 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:44:05 INF [TCP] connected lAddr=127.0.0.1:50656 rAddr=space.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:44:05 INF [TCP] connected lAddr=127.0.0.1:50658 rAddr=i1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:44:06 INF [TCP] connected lAddr=127.0.0.1:50660 rAddr=message.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:44:06 INF [TCP] connected lAddr=127.0.0.1:50662 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:44:23 INF [TCP] connected lAddr=127.0.0.1:50666 rAddr=www.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:44:24 INF [TCP] connected lAddr=127.0.0.1:50668 rAddr=cn-hnzz-fx-01-06.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+11:44:25 INF [TCP] connected lAddr=127.0.0.1:50670 rAddr=bvc.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+11:44:25 INF [TCP] connected lAddr=127.0.0.1:50672 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:44:25 INF [TCP] connected lAddr=127.0.0.1:50674 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:44:25 INF [TCP] connected lAddr=127.0.0.1:50676 rAddr=api.live.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:44:25 INF [TCP] connected lAddr=127.0.0.1:50678 rAddr=cm.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:44:33 INF [TCP] connected lAddr=127.0.0.1:50680 rAddr=bimp.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:44:39 INF [TCP] connected lAddr=127.0.0.1:50683 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:45:39 INF [TCP] connected lAddr=127.0.0.1:50692 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:46:56 INF [TCP] connected lAddr=127.0.0.1:50713 rAddr=static-xl.a.88cdn.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:46:56 INF [TCP] connected lAddr=127.0.0.1:50715 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+11:46:56 INF [TCP] connected lAddr=127.0.0.1:50717 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+11:47:15 INF [TCP] connected lAddr=127.0.0.1:50722 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:47:18 INF [TCP] connected lAddr=127.0.0.1:50724 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:47:18 INF [TCP] connected lAddr=127.0.0.1:50726 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:47:44 INF [TCP] connected lAddr=127.0.0.1:50731 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:47:56 INF [TCP] connected lAddr=127.0.0.1:50717 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+11:47:56 INF [TCP] connected lAddr=127.0.0.1:50715 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+11:48:54 INF [TCP] connected lAddr=127.0.0.1:50742 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:48:56 INF [TCP] connected lAddr=127.0.0.1:50715 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+11:48:56 INF [TCP] connected lAddr=127.0.0.1:50717 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+11:49:01 INF [TCP] connected lAddr=127.0.0.1:50747 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=XFLTD[🇯🇵 日本 05]
+11:49:11 INF [TCP] connected lAddr=127.0.0.1:50750 rAddr=cn-hnzz-fx-01-07.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+11:49:11 INF [TCP] connected lAddr=127.0.0.1:50752 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:49:11 INF [TCP] connected lAddr=127.0.0.1:50754 rAddr=ali-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:49:24 INF [TCP] connected lAddr=127.0.0.1:50760 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:49:25 INF [TCP] connected lAddr=127.0.0.1:50765 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:49:25 INF [TCP] connected lAddr=127.0.0.1:50763 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:49:25 INF [TCP] connected lAddr=127.0.0.1:50767 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:49:25 INF [TCP] connected lAddr=127.0.0.1:50770 rAddr=ogads-pa.clients6.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:49:26 INF [TCP] connected lAddr=127.0.0.1:50772 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:49:29 INF [TCP] connected lAddr=127.0.0.1:50774 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:49:30 INF [TCP] connected lAddr=127.0.0.1:50776 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=XFLTD[🇯🇵 日本 05]
+11:49:36 INF [TCP] connected lAddr=127.0.0.1:50784 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:49:36 INF [TCP] connected lAddr=127.0.0.1:50785 rAddr=cdn.oaistatic.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:49:36 INF [TCP] connected lAddr=127.0.0.1:50782 rAddr=optimizationguide-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:49:40 INF [TCP] connected lAddr=127.0.0.1:50789 rAddr=cdn.oaistatic.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:49:40 INF [TCP] connected lAddr=127.0.0.1:50788 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:49:41 INF [TCP] connected lAddr=127.0.0.1:50792 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:49:41 INF [TCP] connected lAddr=127.0.0.1:50794 rAddr=sdmntprwestus2.oaiusercontent.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:49:41 INF [TCP] connected lAddr=127.0.0.1:50715 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+11:49:55 INF [TCP] connected lAddr=127.0.0.1:50798 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:50:01 INF [TCP] connected lAddr=127.0.0.1:50800 rAddr=officeclient.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:50:49 INF [TCP] connected lAddr=127.0.0.1:50810 rAddr=osfsr.lenovomm.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:50:52 INF [TCP] connected lAddr=127.0.0.1:50816 rAddr=wework.qpic.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:50:55 INF [TCP] connected lAddr=127.0.0.1:50820 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+11:51:20 INF [TCP] connected lAddr=127.0.0.1:50851 rAddr=mobile.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:51:33 INF [TCP] connected lAddr=127.0.0.1:50854 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:51:36 INF [TCP] connected lAddr=127.0.0.1:50858 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:51:37 INF [TCP] connected lAddr=127.0.0.1:50860 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:51:39 INF [TCP] connected lAddr=127.0.0.1:50862 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:51:39 INF [TCP] connected lAddr=127.0.0.1:50864 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+11:51:40 INF [TCP] connected lAddr=127.0.0.1:50867 rAddr=cognito-identity.us-west-2.amazonaws.com:443 mode=rule rule=DomainKeyword(amazon) proxy=XFLTD[🇯🇵 日本 05]
+11:51:41 INF [TCP] connected lAddr=127.0.0.1:50870 rAddr=pinpoint.us-west-2.amazonaws.com:443 mode=rule rule=DomainKeyword(amazon) proxy=XFLTD[🇯🇵 日本 05]
+11:51:48 INF [TCP] connected lAddr=127.0.0.1:50873 rAddr=graph.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:52:02 INF [TCP] connected lAddr=127.0.0.1:50877 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:52:06 INF [TCP] connected lAddr=127.0.0.1:50880 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+11:52:15 INF [TCP] connected lAddr=127.0.0.1:50884 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:52:17 INF [TCP] connected lAddr=127.0.0.1:50887 rAddr=wx.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:52:19 INF [TCP] connected lAddr=127.0.0.1:50890 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:52:36 INF [TCP] connected lAddr=127.0.0.1:50898 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:52:36 INF [TCP] connected lAddr=127.0.0.1:50896 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:52:39 INF [TCP] connected lAddr=127.0.0.1:50901 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:52:42 INF [TCP] connected lAddr=127.0.0.1:50903 rAddr=mp.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:52:45 INF [TCP] connected lAddr=127.0.0.1:50905 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:52:45 INF [TCP] connected lAddr=127.0.0.1:50907 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:53:04 INF [TCP] connected lAddr=127.0.0.1:50912 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+11:53:04 INF [TCP] connected lAddr=127.0.0.1:50914 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+11:53:06 INF [TCP] connected lAddr=127.0.0.1:50916 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:53:22 INF [TCP] connected lAddr=127.0.0.1:50919 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:53:39 INF [TCP] connected lAddr=127.0.0.1:50923 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:54:39 INF [TCP] connected lAddr=127.0.0.1:50933 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:55:08 INF [TCP] connected lAddr=127.0.0.1:50914 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+11:55:08 INF [TCP] connected lAddr=127.0.0.1:50912 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+11:55:40 INF [TCP] connected lAddr=127.0.0.1:50944 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:56:12 INF [TCP] connected lAddr=127.0.0.1:50953 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:56:15 INF [TCP] connected lAddr=127.0.0.1:50955 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:56:35 INF [TCP] connected lAddr=127.0.0.1:50960 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+11:56:39 INF [TCP] connected lAddr=127.0.0.1:50962 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:57:11 INF [TCP] connected lAddr=127.0.0.1:50968 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+11:57:15 INF [TCP] connected lAddr=127.0.0.1:50970 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:57:40 INF [TCP] connected lAddr=127.0.0.1:50974 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:58:06 INF [TCP] connected lAddr=127.0.0.1:50979 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:58:07 INF [TCP] connected lAddr=127.0.0.1:50981 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:58:22 INF [TCP] connected lAddr=127.0.0.1:50984 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+11:58:34 INF [TCP] connected lAddr=127.0.0.1:50987 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+11:58:40 INF [TCP] connected lAddr=127.0.0.1:50990 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:00:16 INF [TCP] connected lAddr=127.0.0.1:51004 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:00:16 INF [TCP] connected lAddr=127.0.0.1:51006 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:01:18 INF [TCP] connected lAddr=127.0.0.1:51006 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:01:18 INF [TCP] connected lAddr=127.0.0.1:51004 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:01:41 INF [TCP] connected lAddr=127.0.0.1:51021 rAddr=optimizationguide-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:01:42 INF [TCP] connected lAddr=127.0.0.1:51023 rAddr=cdn.oaistatic.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:01:56 INF [TCP] connected lAddr=127.0.0.1:51027 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:02:15 INF [TCP] connected lAddr=127.0.0.1:51035 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:02:40 INF [TCP] connected lAddr=127.0.0.1:51039 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:02:58 INF [TCP] connected lAddr=127.0.0.1:51043 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:03:22 INF [TCP] connected lAddr=127.0.0.1:51050 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:03:34 INF [TCP] connected lAddr=127.0.0.1:51053 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:03:34 INF [TCP] connected lAddr=127.0.0.1:51055 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:03:40 INF [TCP] connected lAddr=127.0.0.1:51058 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:04:03 INF [TCP] connected lAddr=127.0.0.1:51062 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:04:05 INF [TCP] connected lAddr=127.0.0.1:51064 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+12:05:06 INF [TCP] connected lAddr=127.0.0.1:51076 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:05:48 INF [TCP] connected lAddr=127.0.0.1:51085 rAddr=osfsr.lenovomm.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:06:07 INF [TCP] connected lAddr=127.0.0.1:51090 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:07:15 INF [TCP] connected lAddr=127.0.0.1:51106 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:08:22 INF [TCP] connected lAddr=127.0.0.1:51115 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:08:31 INF [TCP] connected lAddr=127.0.0.1:51117 rAddr=pinpoint.us-west-2.amazonaws.com:443 mode=rule rule=DomainKeyword(amazon) proxy=XFLTD[🇯🇵 日本 05]
+12:09:03 INF [TCP] connected lAddr=127.0.0.1:51123 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:09:03 INF [TCP] connected lAddr=127.0.0.1:51125 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:09:25 INF [TCP] connected lAddr=127.0.0.1:51129 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:11:22 INF [TCP] connected lAddr=127.0.0.1:51147 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:12:19 INF [TCP] connected lAddr=127.0.0.1:51159 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+12:12:47 INF [TCP] connected lAddr=127.0.0.1:51165 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:14:12 INF [TCP] connected lAddr=127.0.0.1:51177 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:14:25 INF [TCP] connected lAddr=127.0.0.1:51180 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:14:26 INF [TCP] connected lAddr=127.0.0.1:51182 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:14:53 INF [TCP] connected lAddr=127.0.0.1:51188 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:15:16 INF [TCP] connected lAddr=127.0.0.1:51192 rAddr=pinpoint.us-west-2.amazonaws.com:443 mode=rule rule=DomainKeyword(amazon) proxy=XFLTD[🇯🇵 日本 05]
+12:15:41 INF [TCP] connected lAddr=127.0.0.1:51196 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:15:50 INF [TCP] connected lAddr=127.0.0.1:51199 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:16:10 INF [TCP] connected lAddr=127.0.0.1:51203 rAddr=cn-hnzz-fx-01-06.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+12:16:41 INF [TCP] connected lAddr=127.0.0.1:51209 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:17:16 INF [TCP] connected lAddr=127.0.0.1:51216 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:17:16 INF [TCP] connected lAddr=127.0.0.1:51218 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:17:41 INF [TCP] connected lAddr=127.0.0.1:51224 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:17:58 INF [TCP] connected lAddr=127.0.0.1:51227 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:17:58 INF [TCP] connected lAddr=127.0.0.1:51230 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:17:58 INF [TCP] connected lAddr=127.0.0.1:51229 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:17:59 INF [TCP] connected lAddr=127.0.0.1:51233 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:17:59 INF [TCP] connected lAddr=127.0.0.1:51235 rAddr=cm.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:18:13 INF [TCP] connected lAddr=127.0.0.1:51239 rAddr=cm.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:18:28 INF [TCP] connected lAddr=127.0.0.1:51242 rAddr=open-cms-api.quark.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+12:18:29 INF [TCP] connected lAddr=127.0.0.1:51244 rAddr=open-cms-api.quark.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+12:18:29 INF [TCP] connected lAddr=127.0.0.1:51246 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+12:18:41 INF [TCP] connected lAddr=127.0.0.1:51253 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:18:59 INF [TCP] connected lAddr=127.0.0.1:51265 rAddr=unpm-upaas.uc.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+12:19:05 INF [TCP] connected lAddr=127.0.0.1:51268 rAddr=puds.ucweb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:19:20 INF [TCP] connected lAddr=127.0.0.1:51271 rAddr=i2.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:19:20 INF [TCP] connected lAddr=127.0.0.1:51273 rAddr=i1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:19:22 INF [TCP] connected lAddr=127.0.0.1:51275 rAddr=cn-hnzz-fx-01-06.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+12:19:41 INF [TCP] connected lAddr=127.0.0.1:51279 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:19:54 INF [TCP] connected lAddr=127.0.0.1:51282 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:19:54 INF [TCP] connected lAddr=127.0.0.1:51284 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:20:05 INF [TCP] connected lAddr=127.0.0.1:51287 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:20:21 INF [TCP] connected lAddr=127.0.0.1:51290 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:20:41 INF [TCP] connected lAddr=127.0.0.1:51294 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:20:46 INF [TCP] connected lAddr=127.0.0.1:51296 rAddr=pc-store-lb.lenovomm.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+12:20:46 INF [TCP] connected lAddr=127.0.0.1:51298 rAddr=osfsr.lenovomm.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:21:05 INF [TCP] connected lAddr=127.0.0.1:51310 rAddr=config.edge.skype.com:443 mode=rule rule=DomainSuffix(skype.com) proxy=XFLTD[🇯🇵 日本 05]
+12:21:20 INF [TCP] connected lAddr=127.0.0.1:51317 rAddr=mobile.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+12:21:22 INF [TCP] connected lAddr=127.0.0.1:51320 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:21:32 INF [TCP] connected lAddr=127.0.0.1:51323 rAddr=storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+12:21:33 INF [TCP] connected lAddr=127.0.0.1:51326 rAddr=onedriveclucprodbn20010.blob.core.windows.net:443 mode=rule rule=DomainSuffix(windows.net) proxy=XFLTD[🇯🇵 日本 05]
+12:21:33 INF [TCP] connected lAddr=127.0.0.1:51328 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:21:48 INF [TCP] connected lAddr=127.0.0.1:51336 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:21:50 INF [TCP] connected lAddr=127.0.0.1:51338 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:22:21 INF [TCP] connected lAddr=127.0.0.1:51345 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:22:21 INF [TCP] connected lAddr=127.0.0.1:51347 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:22:22 INF [TCP] connected lAddr=127.0.0.1:51349 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:22:22 INF [TCP] connected lAddr=127.0.0.1:51351 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:22:35 INF [TCP] connected lAddr=127.0.0.1:51354 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:22:36 INF [TCP] connected lAddr=127.0.0.1:51356 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:23:33 INF [TCP] connected lAddr=127.0.0.1:51368 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+12:23:41 INF [TCP] connected lAddr=127.0.0.1:51372 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:24:22 INF [TCP] connected lAddr=127.0.0.1:51377 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:24:35 INF [TCP] connected lAddr=127.0.0.1:51380 rAddr=ocsp.entrust.net:80 mode=rule rule=DomainSuffix(entrust.net) proxy=XFLTD[🇯🇵 日本 05]
+12:24:35 INF [TCP] connected lAddr=127.0.0.1:51380 rAddr=x1.c.lencr.org:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:24:41 INF [TCP] connected lAddr=127.0.0.1:51385 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:24:59 INF [TCP] connected lAddr=127.0.0.1:51390 rAddr=open-cms-api.quark.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+12:25:00 INF [TCP] connected lAddr=127.0.0.1:51392 rAddr=open-cms-api.quark.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+12:25:06 INF [TCP] connected lAddr=127.0.0.1:51394 rAddr=ctldl.windowsupdate.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:25:07 INF [TCP] connected lAddr=127.0.0.1:51394 rAddr=c.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:25:07 INF [TCP] connected lAddr=127.0.0.1:51394 rAddr=ctldl.windowsupdate.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:25:21 INF [TCP] connected lAddr=127.0.0.1:51400 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:25:21 INF [TCP] connected lAddr=127.0.0.1:51402 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:25:46 INF [TCP] connected lAddr=127.0.0.1:51406 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:26:49 INF [TCP] connected lAddr=127.0.0.1:59208 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+12:29:03 INF [TCP] connected lAddr=127.0.0.1:59232 rAddr=wx.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+12:29:22 INF [TCP] connected lAddr=127.0.0.1:59240 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:29:30 INF [TCP] connected lAddr=127.0.0.1:59243 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:29:31 INF [TCP] connected lAddr=127.0.0.1:59245 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:29:41 INF [TCP] connected lAddr=127.0.0.1:59248 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:30:41 INF [TCP] connected lAddr=127.0.0.1:59257 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:30:47 INF [TCP] connected lAddr=127.0.0.1:59259 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:30:47 INF [TCP] connected lAddr=127.0.0.1:59261 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:31:13 INF [TCP] connected lAddr=127.0.0.1:59269 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:32:22 INF [TCP] connected lAddr=127.0.0.1:59292 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:33:05 INF [TCP] connected lAddr=127.0.0.1:59312 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+12:33:07 INF [TCP] connected lAddr=127.0.0.1:59315 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+12:33:33 INF [TCP] connected lAddr=127.0.0.1:59327 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:33:35 INF [TCP] connected lAddr=127.0.0.1:59333 rAddr=cn-hnzz-fx-01-06.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+12:33:42 INF [TCP] connected lAddr=127.0.0.1:59338 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:33:42 INF [TCP] connected lAddr=127.0.0.1:59340 rAddr=mp.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+12:33:46 INF [TCP] connected lAddr=127.0.0.1:59346 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:34:26 INF [TCP] connected lAddr=127.0.0.1:59359 rAddr=my.microsoftpersonalcontent.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:34:32 INF [TCP] connected lAddr=127.0.0.1:59361 rAddr=mobile.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+12:34:42 INF [TCP] connected lAddr=127.0.0.1:59367 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:35:13 INF [TCP] connected lAddr=127.0.0.1:59379 rAddr=self.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+12:35:14 INF [TCP] connected lAddr=127.0.0.1:59381 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+12:35:19 INF [TCP] connected lAddr=127.0.0.1:59384 rAddr=g.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+12:35:19 INF [TCP] connected lAddr=127.0.0.1:59386 rAddr=oneclient.sfx.ms:443 mode=rule rule=DomainSuffix(sfx.ms) proxy=XFLTD[🇯🇵 日本 05]
+12:36:14 INF [TCP] connected lAddr=127.0.0.1:59396 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:36:14 INF [TCP] connected lAddr=127.0.0.1:59398 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:36:27 INF [TCP] connected lAddr=127.0.0.1:59401 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:36:27 INF [TCP] connected lAddr=127.0.0.1:59403 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:36:27 INF [TCP] connected lAddr=127.0.0.1:59405 rAddr=cn-hnzz-fx-01-01.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+12:36:27 INF [TCP] connected lAddr=127.0.0.1:59407 rAddr=cn-hnzz-fx-01-07.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+12:36:27 INF [TCP] connected lAddr=127.0.0.1:59409 rAddr=optimizationguide-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:36:28 INF [TCP] connected lAddr=127.0.0.1:59411 rAddr=bvc.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+12:36:28 INF [TCP] connected lAddr=127.0.0.1:59413 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:36:28 INF [TCP] connected lAddr=127.0.0.1:59415 rAddr=i2.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:36:28 INF [TCP] connected lAddr=127.0.0.1:59417 rAddr=le3-api.game.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:36:28 INF [TCP] connected lAddr=127.0.0.1:59419 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:36:28 INF [TCP] connected lAddr=127.0.0.1:59421 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:36:28 INF [TCP] connected lAddr=127.0.0.1:59423 rAddr=cm.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:36:35 INF [TCP] connected lAddr=127.0.0.1:59426 rAddr=boss.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:36:35 INF [TCP] connected lAddr=127.0.0.1:59428 rAddr=bimp.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:36:39 INF [TCP] connected lAddr=127.0.0.1:59431 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:36:42 INF [TCP] connected lAddr=127.0.0.1:59433 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:37:42 INF [TCP] connected lAddr=127.0.0.1:59442 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:39:11 INF [TCP] connected lAddr=127.0.0.1:59453 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:41:07 INF [TCP] connected lAddr=127.0.0.1:59468 rAddr=ldc.lenovo.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+12:41:08 INF [TCP] connected lAddr=127.0.0.1:59470 rAddr=cloud-cdn.lenovomm.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:41:29 INF [TCP] connected lAddr=127.0.0.1:59475 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:41:39 INF [TCP] connected lAddr=127.0.0.1:59480 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:41:39 INF [TCP] connected lAddr=127.0.0.1:59482 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:42:05 INF [TCP] connected lAddr=127.0.0.1:59486 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:44:05 INF [TCP] connected lAddr=127.0.0.1:59505 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:45:34 INF [TCP] connected lAddr=127.0.0.1:59515 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:45:42 INF [TCP] connected lAddr=127.0.0.1:59517 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:46:38 INF [TCP] connected lAddr=127.0.0.1:59526 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:46:38 INF [TCP] connected lAddr=127.0.0.1:59527 rAddr=i2.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:46:38 INF [TCP] connected lAddr=127.0.0.1:59529 rAddr=i1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:46:42 INF [TCP] connected lAddr=127.0.0.1:59533 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:46:42 INF [TCP] connected lAddr=127.0.0.1:59535 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:46:58 INF [TCP] connected lAddr=127.0.0.1:59538 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:47:05 INF [TCP] connected lAddr=127.0.0.1:59541 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:47:06 INF [TCP] connected lAddr=127.0.0.1:59543 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:47:18 INF [TCP] connected lAddr=127.0.0.1:59546 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:47:18 INF [TCP] connected lAddr=127.0.0.1:59548 rAddr=analytics.immersivetranslate.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:47:34 INF [TCP] connected lAddr=127.0.0.1:59552 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:47:42 INF [TCP] connected lAddr=127.0.0.1:59555 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:48:14 INF [TCP] connected lAddr=127.0.0.1:59561 rAddr=static-xl.a.88cdn.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:48:14 INF [TCP] connected lAddr=127.0.0.1:59563 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:48:14 INF [TCP] connected lAddr=127.0.0.1:59565 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:48:43 INF [TCP] connected lAddr=127.0.0.1:59570 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:48:45 INF [TCP] connected lAddr=127.0.0.1:59574 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:48:49 INF [TCP] connected lAddr=127.0.0.1:59577 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+12:48:49 WRN [TCP] dial failed error=dial tcp4 118.193.240.41:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:59572 rAddr=chatgpt.com:443 rule=GeoIP rulePayload=CN
+12:48:49 INF [TCP] connected lAddr=127.0.0.1:59579 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:48:52 INF [TCP] connected lAddr=127.0.0.1:59581 rAddr=api.onedrive.com:443 mode=rule rule=DomainSuffix(onedrive.com) proxy=XFLTD[🇯🇵 日本 05]
+12:49:22 INF [TCP] connected lAddr=127.0.0.1:59586 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:50:16 INF [TCP] connected lAddr=127.0.0.1:59563 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:50:16 INF [TCP] connected lAddr=127.0.0.1:59565 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:51:17 INF [TCP] connected lAddr=127.0.0.1:59563 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:51:17 INF [TCP] connected lAddr=127.0.0.1:59565 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:51:20 INF [TCP] connected lAddr=127.0.0.1:59623 rAddr=mobile.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+12:51:33 INF [TCP] connected lAddr=127.0.0.1:59626 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:51:41 INF [TCP] connected lAddr=127.0.0.1:59630 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:51:51 INF [TCP] connected lAddr=127.0.0.1:59633 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:52:18 INF [TCP] connected lAddr=127.0.0.1:59639 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:52:22 INF [TCP] connected lAddr=127.0.0.1:59641 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:52:22 INF [TCP] connected lAddr=127.0.0.1:59643 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:52:27 INF [TCP] connected lAddr=127.0.0.1:59646 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:52:34 INF [TCP] connected lAddr=127.0.0.1:59650 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:52:34 INF [TCP] connected lAddr=127.0.0.1:59652 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:52:36 INF [TCP] connected lAddr=127.0.0.1:59655 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:52:36 INF [TCP] connected lAddr=127.0.0.1:59657 rAddr=clientservices.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:53:04 INF [TCP] connected lAddr=127.0.0.1:59665 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:53:36 INF [TCP] connected lAddr=127.0.0.1:59669 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+12:54:06 INF [TCP] connected lAddr=127.0.0.1:59674 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:54:06 INF [TCP] connected lAddr=127.0.0.1:59676 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:54:22 INF [TCP] connected lAddr=127.0.0.1:59681 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:55:04 INF [TCP] connected lAddr=127.0.0.1:59674 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:55:04 INF [TCP] connected lAddr=127.0.0.1:59676 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:55:13 INF [TCP] connected lAddr=127.0.0.1:59694 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:13 INF [TCP] connected lAddr=127.0.0.1:59696 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:13 INF [TCP] connected lAddr=127.0.0.1:59700 rAddr=blog.huazzi.site:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:55:13 INF [TCP] connected lAddr=127.0.0.1:59703 rAddr=ogads-pa.clients6.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:14 INF [TCP] connected lAddr=127.0.0.1:59705 rAddr=ogads-pa.clients6.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:14 INF [TCP] connected lAddr=127.0.0.1:59707 rAddr=ajax.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:15 INF [TCP] connected lAddr=127.0.0.1:59709 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:15 INF [TCP] connected lAddr=127.0.0.1:59711 rAddr=fonts.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:15 INF [TCP] connected lAddr=127.0.0.1:59715 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=XFLTD[🇯🇵 日本 05]
+12:55:15 INF [TCP] connected lAddr=127.0.0.1:59713 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=XFLTD[🇯🇵 日本 05]
+12:55:15 INF [TCP] connected lAddr=127.0.0.1:59717 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=XFLTD[🇯🇵 日本 05]
+12:55:15 INF [TCP] connected lAddr=127.0.0.1:59721 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=XFLTD[🇯🇵 日本 05]
+12:55:15 INF [TCP] connected lAddr=127.0.0.1:59720 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=XFLTD[🇯🇵 日本 05]
+12:55:16 INF [TCP] connected lAddr=127.0.0.1:59724 rAddr=www.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:16 INF [TCP] connected lAddr=127.0.0.1:59726 rAddr=optimizationguide-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:17 INF [TCP] connected lAddr=127.0.0.1:59728 rAddr=www.googleadservices.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:17 INF [TCP] connected lAddr=127.0.0.1:59729 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:17 INF [TCP] connected lAddr=127.0.0.1:59734 rAddr=ogads-pa.clients6.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:17 INF [TCP] connected lAddr=127.0.0.1:59732 rAddr=id.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:17 INF [TCP] connected lAddr=127.0.0.1:59736 rAddr=config.immersivetranslate.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:55:17 INF [TCP] connected lAddr=127.0.0.1:59738 rAddr=ogads-pa.clients6.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:17 INF [TCP] connected lAddr=127.0.0.1:59740 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:17 INF [TCP] connected lAddr=127.0.0.1:59744 rAddr=encrypted-tbn2.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=XFLTD[🇯🇵 日本 05]
+12:55:18 INF [TCP] connected lAddr=127.0.0.1:59746 rAddr=encrypted-tbn1.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=XFLTD[🇯🇵 日本 05]
+12:55:18 INF [TCP] connected lAddr=127.0.0.1:59742 rAddr=assets.immersivetranslate.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+12:55:18 INF [TCP] connected lAddr=127.0.0.1:59753 rAddr=encrypted-tbn1.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=XFLTD[🇯🇵 日本 05]
+12:55:18 INF [TCP] connected lAddr=127.0.0.1:59754 rAddr=encrypted-tbn1.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=XFLTD[🇯🇵 日本 05]
+12:55:18 INF [TCP] connected lAddr=127.0.0.1:59752 rAddr=encrypted-tbn1.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=XFLTD[🇯🇵 日本 05]
+12:55:18 INF [TCP] connected lAddr=127.0.0.1:59750 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:18 INF [TCP] connected lAddr=127.0.0.1:59748 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=XFLTD[🇯🇵 日本 05]
+12:55:18 INF [TCP] connected lAddr=127.0.0.1:59758 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:19 INF [TCP] connected lAddr=127.0.0.1:59760 rAddr=ai.immersivetranslate.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:55:20 INF [TCP] connected lAddr=127.0.0.1:59762 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:21 INF [TCP] connected lAddr=127.0.0.1:59768 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:55:21 INF [TCP] connected lAddr=127.0.0.1:59764 rAddr=github.com:443 mode=rule rule=DomainKeyword(github) proxy=XFLTD[🇯🇵 日本 05]
+12:55:21 INF [TCP] connected lAddr=127.0.0.1:59766 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:21 INF [TCP] connected lAddr=127.0.0.1:59770 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:55:21 INF [TCP] connected lAddr=127.0.0.1:59773 rAddr=ssl.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=XFLTD[🇯🇵 日本 05]
+12:55:21 INF [TCP] connected lAddr=127.0.0.1:59772 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=XFLTD[🇯🇵 日本 05]
+12:55:21 INF [TCP] connected lAddr=127.0.0.1:59776 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:22 INF [TCP] connected lAddr=127.0.0.1:59779 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:55:22 INF [TCP] connected lAddr=127.0.0.1:59782 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=XFLTD[🇯🇵 日本 05]
+12:55:22 INF [TCP] connected lAddr=127.0.0.1:59781 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=XFLTD[🇯🇵 日本 05]
+12:55:22 INF [TCP] connected lAddr=127.0.0.1:59787 rAddr=private-user-images.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=XFLTD[🇯🇵 日本 05]
+12:55:22 INF [TCP] connected lAddr=127.0.0.1:59788 rAddr=camo.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=XFLTD[🇯🇵 日本 05]
+12:55:23 INF [TCP] connected lAddr=127.0.0.1:59795 rAddr=camo.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=XFLTD[🇯🇵 日本 05]
+12:55:23 INF [TCP] connected lAddr=127.0.0.1:59794 rAddr=camo.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=XFLTD[🇯🇵 日本 05]
+12:55:23 INF [TCP] connected lAddr=127.0.0.1:59791 rAddr=camo.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=XFLTD[🇯🇵 日本 05]
+12:55:23 INF [TCP] connected lAddr=127.0.0.1:59793 rAddr=camo.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=XFLTD[🇯🇵 日本 05]
+12:55:23 INF [TCP] connected lAddr=127.0.0.1:59792 rAddr=camo.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=XFLTD[🇯🇵 日本 05]
+12:55:23 INF [TCP] connected lAddr=127.0.0.1:59801 rAddr=content-autofill.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:55:23 INF [TCP] connected lAddr=127.0.0.1:59803 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=XFLTD[🇯🇵 日本 05]
+12:55:23 INF [TCP] connected lAddr=127.0.0.1:59805 rAddr=raw.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=XFLTD[🇯🇵 日本 05]
+12:55:27 INF [TCP] connected lAddr=127.0.0.1:59809 rAddr=api.github.com:443 mode=rule rule=DomainKeyword(github) proxy=XFLTD[🇯🇵 日本 05]
+12:55:27 INF [TCP] connected lAddr=127.0.0.1:59807 rAddr=collector.github.com:443 mode=rule rule=DomainKeyword(github) proxy=XFLTD[🇯🇵 日本 05]
+12:55:28 INF [TCP] connected lAddr=127.0.0.1:59811 rAddr=collector.github.com:443 mode=rule rule=DomainKeyword(github) proxy=XFLTD[🇯🇵 日本 05]
+12:55:35 INF [TCP] connected lAddr=127.0.0.1:59813 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:55:37 INF [TCP] connected lAddr=127.0.0.1:59817 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:55:37 INF [TCP] connected lAddr=127.0.0.1:59816 rAddr=chatgpt.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:55:46 INF [TCP] connected lAddr=127.0.0.1:59821 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+12:56:15 INF [TCP] connected lAddr=127.0.0.1:59832 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:57:12 INF [TCP] connected lAddr=127.0.0.1:59844 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:57:12 INF [TCP] connected lAddr=127.0.0.1:59846 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:57:18 INF [TCP] connected lAddr=127.0.0.1:59849 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+12:57:20 INF [TCP] connected lAddr=127.0.0.1:59851 rAddr=beacons.gcp.gvt2.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+12:57:22 INF [TCP] connected lAddr=127.0.0.1:59853 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+12:58:03 INF [TCP] connected lAddr=127.0.0.1:59861 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+12:58:05 INF [TCP] connected lAddr=127.0.0.1:59863 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:58:05 INF [TCP] connected lAddr=127.0.0.1:59865 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:58:22 INF [TCP] connected lAddr=127.0.0.1:59846 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:58:22 INF [TCP] connected lAddr=127.0.0.1:59844 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:58:33 INF [TCP] connected lAddr=127.0.0.1:59872 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+12:58:55 INF [TCP] connected lAddr=127.0.0.1:59878 rAddr=update.wps.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+12:58:56 INF [TCP] connected lAddr=127.0.0.1:59884 rAddr=update.wps.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+12:59:14 INF [TCP] connected lAddr=127.0.0.1:59844 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:59:14 INF [TCP] connected lAddr=127.0.0.1:59846 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+12:59:22 INF [TCP] connected lAddr=127.0.0.1:59893 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+13:00:06 INF [TCP] connected lAddr=127.0.0.1:59899 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+13:00:14 INF [TCP] connected lAddr=127.0.0.1:59901 rAddr=blog.huazzi.site:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+13:01:07 INF [TCP] connected lAddr=127.0.0.1:59846 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:01:07 INF [TCP] connected lAddr=127.0.0.1:59844 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:02:02 INF [TCP] connected lAddr=127.0.0.1:59926 rAddr=wx.qlogo.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+13:02:02 INF [TCP] connected lAddr=127.0.0.1:59928 rAddr=wx.qlogo.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+13:02:22 INF [TCP] connected lAddr=127.0.0.1:59941 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+13:02:42 INF [TCP] connected lAddr=127.0.0.1:59947 rAddr=mp.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+13:02:46 INF [TCP] connected lAddr=127.0.0.1:59949 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+13:03:22 INF [TCP] connected lAddr=127.0.0.1:59844 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:03:22 INF [TCP] connected lAddr=127.0.0.1:59846 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:03:34 INF [TCP] connected lAddr=127.0.0.1:59959 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+13:03:34 INF [TCP] connected lAddr=127.0.0.1:59961 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+13:04:02 INF [TCP] connected lAddr=127.0.0.1:59965 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+13:04:22 INF [TCP] connected lAddr=127.0.0.1:59968 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+13:04:22 INF [TCP] connected lAddr=127.0.0.1:59846 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:04:22 INF [TCP] connected lAddr=127.0.0.1:59844 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:05:22 INF [TCP] connected lAddr=127.0.0.1:59844 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:05:22 INF [TCP] connected lAddr=127.0.0.1:59846 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:05:53 INF [TCP] connected lAddr=127.0.0.1:59989 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+13:06:10 INF [TCP] connected lAddr=127.0.0.1:59846 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:06:10 INF [TCP] connected lAddr=127.0.0.1:59844 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:07:22 INF [TCP] connected lAddr=127.0.0.1:60006 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+13:07:22 INF [TCP] connected lAddr=127.0.0.1:59844 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:07:22 INF [TCP] connected lAddr=127.0.0.1:59846 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:08:22 INF [TCP] connected lAddr=127.0.0.1:59846 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:08:22 INF [TCP] connected lAddr=127.0.0.1:59844 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:08:45 INF [TCP] connected lAddr=127.0.0.1:60023 rAddr=v20.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+13:09:02 INF [TCP] connected lAddr=127.0.0.1:60027 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+13:09:03 INF [TCP] connected lAddr=127.0.0.1:60030 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+13:09:22 INF [TCP] connected lAddr=127.0.0.1:60033 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+13:09:22 INF [TCP] connected lAddr=127.0.0.1:59844 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:09:22 INF [TCP] connected lAddr=127.0.0.1:59846 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:09:26 INF [TCP] connected lAddr=127.0.0.1:60038 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+13:10:22 INF [TCP] connected lAddr=127.0.0.1:59846 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:10:22 INF [TCP] connected lAddr=127.0.0.1:59844 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:12:22 INF [TCP] connected lAddr=127.0.0.1:60065 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+13:12:22 INF [TCP] connected lAddr=127.0.0.1:59846 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:12:22 INF [TCP] connected lAddr=127.0.0.1:59844 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:13:15 INF [TCP] connected lAddr=127.0.0.1:59846 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:13:15 INF [TCP] connected lAddr=127.0.0.1:59844 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:13:25 INF [TCP] connected lAddr=127.0.0.1:60080 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=XFLTD[🇯🇵 日本 05]
+13:14:07 INF [TCP] connected lAddr=127.0.0.1:60086 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+13:14:22 INF [TCP] connected lAddr=127.0.0.1:60089 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+13:14:27 INF [TCP] connected lAddr=127.0.0.1:60091 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+13:14:27 INF [TCP] connected lAddr=127.0.0.1:60093 rAddr=mtalk.google.com:5228 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+13:14:48 INF [TCP] connected lAddr=127.0.0.1:60097 rAddr=mtalk.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+13:15:44 INF [TCP] connected lAddr=127.0.0.1:60109 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+13:16:22 INF [TCP] connected lAddr=127.0.0.1:59844 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:16:22 INF [TCP] connected lAddr=127.0.0.1:59846 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:16:44 INF [TCP] connected lAddr=127.0.0.1:60120 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+13:17:17 INF [TCP] connected lAddr=127.0.0.1:59846 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:17:17 INF [TCP] connected lAddr=127.0.0.1:59844 rAddr=stat.download.xunlei.com:8099 mode=rule rule=DomainSuffix(xunlei.com) proxy=DIRECT
+13:17:22 INF [TCP] connected lAddr=127.0.0.1:60129 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+13:17:25 INF [TCP] connected lAddr=127.0.0.1:60131 rAddr=ecs.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=DIRECT
+13:17:26 INF [TCP] connected lAddr=127.0.0.1:60133 rAddr=mobile.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+13:17:32 INF [TCP] connected lAddr=127.0.0.1:60136 rAddr=clients4.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+13:17:44 INF [TCP] connected lAddr=127.0.0.1:60140 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+13:18:20 INF [TCP] connected lAddr=127.0.0.1:60146 rAddr=browser-intake-datadoghq.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+13:18:27 INF [TCP] connected lAddr=127.0.0.1:60148 rAddr=open-cms-api.quark.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+13:18:28 INF [TCP] connected lAddr=127.0.0.1:60150 rAddr=open-cms-api.quark.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+13:18:39 INF [TCP] connected lAddr=127.0.0.1:60153 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+13:18:40 INF [TCP] connected lAddr=127.0.0.1:60160 rAddr=osfsr.lenovomm.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+13:18:40 INF [TCP] connected lAddr=127.0.0.1:60155 rAddr=ab.chatgpt.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+13:18:41 INF [TCP] connected lAddr=127.0.0.1:60162 rAddr=update.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=XFLTD[🇯🇵 日本 05]
+13:18:58 INF [TCP] connected lAddr=127.0.0.1:60173 rAddr=unpm-upaas.uc.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+13:19:03 INF [TCP] connected lAddr=127.0.0.1:60175 rAddr=cognito-identity.us-west-2.amazonaws.com:443 mode=rule rule=DomainKeyword(amazon) proxy=XFLTD[🇯🇵 日本 05]
+13:19:04 INF [TCP] connected lAddr=127.0.0.1:60177 rAddr=pc-store-lb.lenovomm.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+13:19:05 INF [TCP] connected lAddr=127.0.0.1:60179 rAddr=osfsr.lenovomm.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+13:19:10 INF [TCP] connected lAddr=127.0.0.1:60187 rAddr=ocws.officeapps.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+13:19:10 INF [TCP] connected lAddr=127.0.0.1:60189 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+13:19:11 INF [TCP] connected lAddr=127.0.0.1:60193 rAddr=graph.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT

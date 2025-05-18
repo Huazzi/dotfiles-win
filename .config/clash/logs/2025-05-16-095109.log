@@ -1,0 +1,67 @@
+09:51:10 INF [API] listening addr=127.0.0.1:49798
+09:51:10 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=tcp
+09:51:10 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+09:51:11 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:49808 rAddr=mobile.events.data.microsoft.com:443 proxy=DIRECT
+09:51:11 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:49810 rAddr=raw.githubusercontent.com:443 proxy=DIRECT
+09:51:11 INF [Config] initial compatible provider name=XFLTD
+09:51:11 INF [Config] initial compatible provider name=故障转移
+09:51:11 INF [Config] initial compatible provider name=自动选择
+09:51:11 INF [TCP] connected, doesn't match any rule lAddr=127.0.0.1:49812 rAddr=api.github.com:443 proxy=DIRECT
+09:51:12 INF [TCP] connected lAddr=127.0.0.1:49869 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:51:15 INF [TCP] connected lAddr=127.0.0.1:49899 rAddr=storage.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+09:51:15 INF [TCP] connected lAddr=127.0.0.1:49903 rAddr=osfsr.lenovomm.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+09:51:15 INF [TCP] connected lAddr=127.0.0.1:49901 rAddr=g.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+09:51:16 INF [TCP] connected lAddr=127.0.0.1:49906 rAddr=oneclient.sfx.ms:443 mode=rule rule=DomainSuffix(sfx.ms) proxy=XFLTD[🇯🇵 日本 05]
+09:51:16 INF [TCP] connected lAddr=127.0.0.1:49908 rAddr=onedriveclucproddm20011.blob.core.windows.net:443 mode=rule rule=DomainSuffix(windows.net) proxy=XFLTD[🇯🇵 日本 05]
+09:51:17 INF [TCP] connected lAddr=127.0.0.1:49910 rAddr=unpm-upaas.uc.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+09:51:18 INF [TCP] connected lAddr=127.0.0.1:49912 rAddr=assets.msn.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+09:51:22 INF [TCP] connected lAddr=127.0.0.1:49914 rAddr=osfsr.lenovomm.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+09:51:55 INF [TCP] connected lAddr=127.0.0.1:49926 rAddr=ocsp.entrust.net:80 mode=rule rule=DomainSuffix(entrust.net) proxy=XFLTD[🇯🇵 日本 05]
+09:51:55 INF [TCP] connected lAddr=127.0.0.1:49926 rAddr=x1.c.lencr.org:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+09:52:00 INF [TCP] connected lAddr=127.0.0.1:49929 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+09:52:01 INF [TCP] connected lAddr=127.0.0.1:49931 rAddr=unpm-upaas.uc.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+09:52:02 INF [TCP] connected lAddr=127.0.0.1:49934 rAddr=fd.api.iris.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:52:04 INF [TCP] connected lAddr=127.0.0.1:49936 rAddr=unpm-upaas.uc.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+09:52:14 INF [TCP] connected lAddr=127.0.0.1:49939 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:52:18 INF [TCP] connected lAddr=127.0.0.1:49941 rAddr=unpm-upaas.uc.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+09:52:27 INF [TCP] connected lAddr=127.0.0.1:49945 rAddr=ctldl.windowsupdate.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+09:52:27 INF [TCP] connected lAddr=127.0.0.1:49945 rAddr=c.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+09:52:27 INF [TCP] connected lAddr=127.0.0.1:49945 rAddr=ctldl.windowsupdate.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+09:52:31 INF [TCP] connected lAddr=127.0.0.1:49951 rAddr=unpm-upaas.uc.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+09:52:35 INF [TCP] connected lAddr=127.0.0.1:49953 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=XFLTD[🇯🇵 日本 05]
+09:52:44 INF [TCP] connected lAddr=127.0.0.1:49955 rAddr=puds.ucweb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+09:52:54 INF [TCP] connected lAddr=127.0.0.1:56353 rAddr=www.msftconnecttest.com:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+09:52:54 INF [TCP] connected lAddr=127.0.0.1:56359 rAddr=ipv6.msftconnecttest.com:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+09:52:54 INF [TCP] connected lAddr=127.0.0.1:56358 rAddr=ipv6.msftconnecttest.com:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+09:52:54 INF [TCP] connected lAddr=127.0.0.1:56361 rAddr=ipv6.msftconnecttest.com:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+09:52:54 INF [TCP] connected lAddr=127.0.0.1:56355 rAddr=www.msftconnecttest.com:80 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+09:53:10 INF [TCP] connected lAddr=127.0.0.1:61437 rAddr=geo.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:53:10 INF [TCP] connected lAddr=127.0.0.1:61439 rAddr=kv501.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:53:11 INF [TCP] connected lAddr=127.0.0.1:61441 rAddr=cp501.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:53:11 INF [TCP] connected lAddr=127.0.0.1:61444 rAddr=cp501.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:53:11 INF [TCP] connected lAddr=127.0.0.1:61443 rAddr=cp501.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:53:11 INF [TCP] connected lAddr=127.0.0.1:61442 rAddr=cp501.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:53:46 INF [TCP] connected lAddr=127.0.0.1:61455 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:53:48 INF [TCP] connected lAddr=127.0.0.1:61458 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:53:48 INF [TCP] connected lAddr=127.0.0.1:61460 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:53:50 INF [TCP] connected lAddr=127.0.0.1:61464 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:53:51 INF [TCP] connected lAddr=127.0.0.1:61467 rAddr=v10.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:53:51 INF [TCP] connected lAddr=127.0.0.1:61469 rAddr=my.microsoftpersonalcontent.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+09:53:51 INF [TCP] connected lAddr=127.0.0.1:61472 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:53:52 INF [TCP] connected lAddr=127.0.0.1:61474 rAddr=201572-ipv4mte.gr.global.aa-rt.sharepoint.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+09:53:53 INF [TCP] connected lAddr=127.0.0.1:61477 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+09:53:53 INF [TCP] connected lAddr=127.0.0.1:61479 rAddr=201572-ipv4.gr.global.aa-rt.sharepoint.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+09:53:53 INF [TCP] connected lAddr=127.0.0.1:61482 rAddr=login.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+09:53:54 INF [TCP] connected lAddr=127.0.0.1:61487 rAddr=api.onedrive.com:443 mode=rule rule=DomainSuffix(onedrive.com) proxy=XFLTD[🇯🇵 日本 05]
+09:53:54 INF [TCP] connected lAddr=127.0.0.1:61491 rAddr=roaming.officeapps.live.com:443 mode=rule rule=DomainSuffix(live.com) proxy=XFLTD[🇯🇵 日本 05]
+09:53:54 INF [TCP] connected lAddr=127.0.0.1:61494 rAddr=skyapi.live.net:443 mode=rule rule=DomainSuffix(live.net) proxy=XFLTD[🇯🇵 日本 05]
+09:53:54 INF [TCP] connected lAddr=127.0.0.1:61496 rAddr=my.microsoftpersonalcontent.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+09:53:54 INF [TCP] connected lAddr=127.0.0.1:61489 rAddr=ecs.office.com:443 mode=rule rule=DomainSuffix(office.com) proxy=DIRECT
+09:53:55 INF [TCP] connected lAddr=127.0.0.1:61498 rAddr=settings-win.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:53:55 INF [TCP] connected lAddr=127.0.0.1:61503 rAddr=arc.msn.com:443 mode=rule rule=Match() proxy=XFLTD[🇯🇵 日本 05]
+09:53:55 INF [TCP] connected lAddr=127.0.0.1:61501 rAddr=mobile.events.data.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:54:36 INF [TCP] connected lAddr=127.0.0.1:61518 rAddr=cp501.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:54:36 INF [TCP] connected lAddr=127.0.0.1:61517 rAddr=geover.prod.do.dsp.mp.microsoft.com:443 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:54:37 INF [TCP] connected lAddr=127.0.0.1:61522 rAddr=dl.delivery.mp.microsoft.com:80 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:54:37 INF [TCP] connected lAddr=127.0.0.1:61524 rAddr=1d.tlu.dl.delivery.mp.microsoft.com:80 mode=rule rule=DomainSuffix(microsoft.com) proxy=DIRECT
+09:54:43 INF [TCP] connected lAddr=127.0.0.1:61530 rAddr=activity.windows.com:443 mode=rule rule=DomainSuffix(windows.com) proxy=XFLTD[🇯🇵 日本 05]
