@@ -1,2 +1,2 @@
-# dotfiles
-记录和备份我的一些`dotfiles`。
+# dotfiles-win
+记录和备份我的一些`dotfiles-win`。
