@@ -1,4 +1,11 @@
+envs_dirs:
+  - D:\Applications\ScoopApps\apps\miniforge-cn\current\envs
+  - C:\Users\Lenovo\.local\share\mamba\envs  # 保留默认的也可以
+pkgs_dirs:
+  - D:\Applications\ScoopApps\apps\miniforge-cn\current\pkgs # 建议把缓存也改到 D 盘
+
 channels:
+  - conda-forge
   - defaults
 show_channel_urls: true
 default_channels:
@@ -8,5 +15,9 @@ default_channels:
 custom_channels:
   conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
   pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
-envs_dirs:
-  - D:\Miniforge3\envs
+  bioconda: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  nvidia: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+
+channel_priority: strict
+
+use_uv: true
