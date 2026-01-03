@@ -1,5 +1,6 @@
 # ------------------------------- 1. 配置默认编码 -------------------------------
-[System.Console]::OutputEncoding = [System.Text.Encoding]::GetEncoding(65001)
+chcp 65001 > $null
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
 # ------------------------------- 2. 只有在交互式界面才加载 UI 相关配置 -------------------------------
 if ($Host.Name -eq 'ConsoleHost' -or $Host.Name -eq 'Windows Terminal') {
