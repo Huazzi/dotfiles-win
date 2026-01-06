@@ -28,8 +28,13 @@ if ($Host.Name -eq 'ConsoleHost' -or $Host.Name -eq 'Windows Terminal') {
         Write-Host "    $blue---------------------------------------$reset"
     }
 
-    # 执行 Banner
-    Show-CustomBanner
+    # --- 只有在【不是】VS Code 且【是】交互式界面时才显示 Banner ---
+    if ($env:TERM_PROGRAM -ne "vscode") {
+    # 如果在 Windows Terminal 或普通 CMD 打开，会进入这里
+        if ($Host.Name -eq 'ConsoleHost' -or $Host.Name -eq 'Windows Terminal') {
+            Show-CustomBanner
+        }
+    }
  
     #------------------------------- Set Hot-keys -------------------------------
     Set-PSReadLineOption -PredictionSource History
@@ -106,30 +111,12 @@ Set-Alias -Name np+ -Value D:\Applications\Notepad++\notepad++.exe
 # 目录导航
 function .. { Set-Location .. }
 function ... { Set-Location ..\.. }
-function .... { Set-Location ..\..\.. }
-function home { Set-Location ~ }
-function docs { Set-Location ~\Documents }
-function dl { Set-Location ~\Downloads }
-
-# 配置文件管理
-function edit-profile { D:\Applications\Notepad++\notepad++.exe $PROFILE }
-function reload-profile { & $PROFILE }
-function test-profile {
-    $errors = $null
-    $null = [System.Management.Automation.PSParser]::Tokenize((Get-Content $PROFILE -Raw), [ref]$errors)
-    if ($errors.Count -eq 0) {
-        Write-Host "✅ 配置文件语法正确" -ForegroundColor Green
-    } else {
-        Write-Host "❌ 配置文件语法错误：" -ForegroundColor Red
-        $errors | ForEach-Object { Write-Host "  $_" -ForegroundColor Yellow }
-    }
-}
 
 # 文件列表 
 # 保留原生 ls
 #function ll { Get-ChildItem -Path . -Force | Format-Table -AutoSize }
 #function la { Get-ChildItem -Path . -Force -Attributes Hidden,ReadOnly,System }
-#function ls { Get-ChildItem @args } 
+#function ls { Get-ChildItem @args }
 # eza 替换
 # ===== eza 配置 =====
 if (Get-Command eza -ErrorAction SilentlyContinue) {
@@ -255,4 +242,25 @@ if (Get-Command git -ErrorAction SilentlyContinue) {
     function gc { git commit -m $args }
     function gp { git push }
     function gl { git log --oneline -10 }
+}
+
+# JDK
+function jdk17 { scoop reset temurin17-jdk }
+function jdk21 { scoop reset temurin21-jdk }
+
+function Test-ProfilePerformance {
+    Write-Host "`n=== PowerShell 配置性能测试 ===" -ForegroundColor Cyan
+    
+    # 测试无配置启动
+    $noProfile = Measure-Command { pwsh -NoProfile -Command "exit" }
+    Write-Host "无配置启动时间: $($noProfile.TotalMilliseconds)ms" -ForegroundColor Green
+    
+    # 测试当前配置启动
+    $withProfile = Measure-Command { pwsh -Command "exit" }
+    Write-Host "当前配置启动时间: $($withProfile.TotalMilliseconds)ms" -ForegroundColor Yellow
+    
+    # 计算开销
+    $overhead = $withProfile.TotalMilliseconds - $noProfile.TotalMilliseconds
+    Write-Host "配置文件开销: $($overhead)ms" -ForegroundColor $(if($overhead -lt 200){"Green"}else{"Red"})
+    Write-Host ""
 }
